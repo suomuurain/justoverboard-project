@@ -1,0 +1,9 @@
+@import "variables";
+@import "normalize.css";
+
+
+#app {
+    width: 100px;
+    height: 100px;
+    background-color: $color-basic;
+}
