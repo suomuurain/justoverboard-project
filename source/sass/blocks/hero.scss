@@ -1,46 +1,46 @@
 .graphic {
-    transform: scale(0.6)
+  transform: scale(0.6);
 }
 
 #graphic {
-    transform: rotate(190deg);
+  transform: rotate(190deg);
 }
 
 /* Graphic Animation -- Start */
 #graphic path {
-    opacity: 0.75;
-    animation: wave2 1.8s ease-in-out infinite alternate-reverse both;
-    transform-origin: center center;
+  opacity: 0.75;
+  animation: wave2 1.8s ease-in-out infinite alternate-reverse both;
+  transform-origin: center center;
 
-    @for $i from 1 through 17{
-        &:nth-child(#{$i}) {
-        animation-delay: $i * 0.08s;
-        }
+  @for $i from 1 through 17{
+    &:nth-child(#{$i}) {
+    animation-delay: $i * 0.08s;
     }
+  }
 }
 
 .hero {
-    position: relative;
+  position: relative;
 }
 
 .hero__graphic-wrapper {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -20;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -20;
 }
 
 .hero__logo-wrapper {
-    position: absolute;
-    right: 30px;
-    top: 0;
-    z-index: -10;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  z-index: -10;
 }
 
 .hero__inner-wrapper {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .hero__adv-wrapper {
-    margin-top: 100px; 
+  margin-top: 100px;
 }
