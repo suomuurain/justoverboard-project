@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Overboard</title>
+    <link rel="stylesheet" href="sass/style.scss">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="ms-3 me-3" href="#">
+            <picture>
+                <img src="./img/jo-logo-min.png" alt="" width="100">
+            </picture>
+          </a>
+          <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto ms-3 mb-2 mt-2 mb-md-0 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="carousel.html">Портфолио</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="template.html">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <button class="btn btn-primary ms-3 me-3 fw-semibold" type="button">Оставить заявку</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__graphic-wrapper me-md-5">
+          <svg id="graphic" height="796" viewBox="0 0 60% 60%" width="790" xmlns="http://www.w3.org/2000/svg" class="graphic">
+            <g fill="none" fill-rule="evenodd" stroke="#7864ff" stroke-width="2" transform="matrix(.99254615 -.12186934 .12186934 .99254615 -36 29.455455)">
+              <path d="m11.6043997 311.604728c7.2843165-19.660502 47.2209999-27.185286 58.7460537.477398 11.5250539 27.662683 17.2875409 27.249825 31.6937536 24.359738 14.406212-2.890086 28.400838 1.238707 31.282114 12.799226 2.881277 11.560519 1.234887 24.359652 21.815202 24.359711 20.580315.000058 25.931255 20.643843 16.052722 27.249821-9.878532 6.605978-13.21993 11.901828-5.762425 22.295254 7.457504 10.393426 8.511978 30.728384-13.180562 37.272357-21.69254 6.543972-34.953433-7.511783-50.212919-3.951314-15.2594861 3.560469-30.3476552 46.242717-50.1346277 38.624294-19.7869724-7.618422-10.5386101-30.468715-19.1319591-48.959839-8.593349-18.491125-33.35364529-9.278269-32.76130545-31.748186.59233983-22.469917 19.74362005-28.51573 22.12350295-49.612995 2.3798828-21.097264-17.81386647-33.504964-10.52955-53.165465z" transform="matrix(1 0 0 -1 0 790)"></path>
+              <path d="m13.7802246 297.742204c8.6501258-23.164353 56.0749374-32.030188 69.7609388.562479 13.6860015 32.592667 20.5289546 32.106229 37.6363316 28.701078 17.107378-3.405152 33.725996 1.459467 37.147512 15.080276 3.421515 13.62081 1.466428 28.700976 25.905552 28.701045s30.793365 24.322944 19.062607 32.106225c-11.730757 7.783281-15.698667 14.022946-6.84288 26.268666s10.107974 36.20473-15.651917 43.914955c-25.759892 7.710225-41.507202-8.850517-59.627842-4.655509-18.120639 4.195008-36.03784 54.483993-59.5348698 45.507832s-12.5145996-35.898783-22.7192015-57.685355-39.60745374-10.931822-38.90405019-37.406278c.70340355-26.474457 23.44554889-33.597742 26.27165969-58.454915 2.8261109-24.857173-21.15396636-39.476146-12.5038406-62.640499z" transform="matrix(1 0 0 -1 0 792)"></path>
+              <path d="m15.8901155 280.966832c9.974547-26.765534 64.6605737-37.009671 80.4420395.649923 15.781466 37.659594 23.672144 37.097534 43.398833 33.16301 19.726688-3.934523 38.889784 1.686359 42.835168 17.42469 3.945384 15.73833 1.690953 33.162891 29.871953 33.162972 28.180999.00008 35.508138 28.104242 21.981284 37.097529-13.526855 8.993286-18.102291 16.202984-7.890594 30.35245 10.211696 14.149466 11.655607 41.833196-18.048383 50.742069-29.70399 8.908874-47.862372-10.226437-68.757463-5.379264-20.895092 4.847174-41.5555962 62.954194-68.6502574 52.582579-27.0946611-10.371615-14.4307105-41.479686-26.1977395-66.653246-11.767029-25.173561-45.67175288-12.631307-44.86065118-43.221541.8111017-30.590233 27.03529798-38.820919 30.29411478-67.542443 3.2588168-28.721523-24.39285118-45.613193-14.4183042-72.378728z" transform="matrix(1 0 0 -1 0 789)"></path>
+              <path d="m18.0659404 266.191461c11.3403564-30.366715 73.5145112-41.989155 91.4569246.737367 17.942413 42.726521 26.913558 42.088838 49.341411 37.624942 22.427854-4.463896 44.214942 1.913251 48.700565 19.769102 4.485624 17.855852 1.922495 37.624808 33.962303 37.624899 32.039809.000091 40.370249 31.885541 24.99117 42.088833-15.379079 10.203293-20.581028 18.383022-8.971049 34.436235 11.609979 16.053212 13.251603 47.461662-20.519738 57.569184-33.771342 10.107522-54.416141-11.602358-78.172386-6.103019-23.756245 5.499338-47.245781 71.424394-78.0504995 59.657325-30.8047185-11.767068-16.4066999-47.060589-29.7849819-75.621138-13.3782819-28.560548-51.92556134-14.330791-51.00339592-49.036802.92216543-34.70601 30.73722672-44.044098 34.44227162-76.629972 3.7050448-32.585873-27.73295117-51.750241-16.3925949-82.116956z" transform="matrix(1 0 0 -1 0 790)"></path>
+              <path d="m20.1098972 251.328937c12.6233893-33.870567 81.8318468-46.834057 101.8042408.822448s29.958523 46.945243 54.923834 41.966282 49.217361 2.13401 54.210483 22.050152c4.993121 19.916142 2.140003 41.966132 37.804753 41.966233 35.664751.000102 44.937686 35.564642 27.818638 46.945237-17.119048 11.380596-22.909539 20.50414-9.986022 38.409646 12.923517 17.905507 14.750872 52.938008-22.841315 64.211783-37.592186 11.273774-60.57271-12.941091-87.016706-6.807214-26.443995 6.133877-52.591107 79.665671-86.8810305 66.540863-34.2899239-13.124807-18.2629324-52.490657-33.1548156-84.346654-14.8918832-31.855996-57.80035117-15.984344-56.77385316-54.694894 1.026498-38.71055 34.21479616-49.126109 38.33902496-85.471892 4.1242287-36.345782-30.87062082-57.721423-18.2472315-91.59199z" transform="matrix(1 0 0 -1 0 790)"></path>
+              <path d="m22.2857222 235.553565c13.9891986-37.471747 90.6857838-51.81354 112.8191258.909892s33.199937 51.936548 60.866413 46.428215c27.666476-5.508334 54.542518 2.360902 60.075879 24.394565 5.53336 22.033662 2.371544 46.428048 41.895104 46.42816 39.523559.000112 49.799796 39.345939 30.828523 51.936541-18.971273 12.590601-25.388276 22.684177-11.066477 42.49343s16.346868 58.566475-25.31267 71.038898c-41.659537 12.472423-67.126479-14.317013-96.431628-7.53097-29.30515 6.786043-58.281292 88.135871-96.2812736 73.61561-37.9999812-14.520261-20.2389219-58.07156-36.742058-93.314545s-64.05415962-17.683829-62.9165979-60.510156c1.13756173-42.826327 37.9167249-54.349288 42.4871817-94.559421 4.5704568-40.210132-34.21072072-63.858471-20.221522-101.330219z" transform="matrix(1 0 0 -1 0 789)"></path>
+              <path d="m24.395613 221.778194c15.3136199-41.072929 99.27142-56.793023 123.500227.997336 24.228806 57.790359 36.343125 56.927852 66.628913 50.890146 30.285787-6.037705 59.706307 2.587795 65.763536 26.738978 6.057229 24.151184 2.59607 50.889965 45.861505 50.890088s54.514569 43.127237 33.747199 56.927844c-20.76737 13.800608-27.791899 24.864216-12.11419 46.577215s17.8945 64.194941-27.709136 77.866012c-45.603636 13.671072-73.481649-15.692933-105.56125-8.254725s-63.799048 96.606072-105.39666 80.690357c-41.5976128-15.915714-22.155033-63.652463-40.2205962-102.282436s-70.11845877-19.383314-68.87319889-66.325418 41.50647409-59.572466 46.50963679-103.646949c5.0031628-44.074484-37.44960554-69.99552-22.1359857-111.068448z" transform="matrix(1 0 0 -1 0 792)"></path>
+              <path d="m26.5055039 206.002822c16.638041-44.67411 107.8570561-61.772506 134.1813271 1.08478 26.324271 62.857287 39.486315 61.919157 72.391414 55.352079s64.870096 2.814687 71.451193 29.083391c6.581098 26.268704 2.820595 55.351881 49.827905 55.352014 47.007311.000134 59.229343 46.908536 36.665877 61.919149-22.563467 15.010613-30.195523 27.044253-13.161905 50.660999 17.033619 23.616745 19.442133 69.823407-30.105601 84.693127s-79.836819-17.068854-114.690872-8.978481-69.316803 105.076273-114.512047 87.765104c-45.1952437-17.311168-24.0711435-69.233366-43.6991338-111.250328-19.6279903-42.016961-76.18275791-21.082798-74.82979988-72.140679 1.35295802-51.057881 45.09622318-64.795645 50.53209188-112.734478 5.4358687-47.938834-40.68849036-76.132567-24.0504493-120.806677z" transform="matrix(1 0 0 -1 0 791)"></path>
+              <path d="m28.6813288 191.22745c18.0038504-48.27529 116.7109942-66.751989 145.1962122 1.172225 28.485218 67.924213 42.727729 66.910461 78.333993 59.814011 35.606263-7.09645 70.195253 3.041578 77.31659 31.427803 7.121336 28.386225 3.052135 59.813798 53.918255 59.813942 50.866119.000145 64.091453 50.689833 39.675762 66.910453-24.415692 16.220619-32.67426 29.224291-14.242359 54.744782 18.4319 25.520492 21.038128 75.451874-32.576957 91.520242-53.615085 16.068369-86.390587-18.444774-124.105794-9.702236s-75.006989 113.546473-123.91229 94.839851c-48.9053011-18.706621-26.047133-74.81427-47.2863763-120.218219-21.2392432-45.403949-82.43656636-22.782284-80.97254462-77.955941 1.46402175-55.173658 48.79815192-70.018823 54.68024872-121.822007 5.8820967-51.803184-44.0285904-82.269615-26.02474-130.544906z" transform="matrix(1 0 0 -1 0 792)"></path>
+              <path d="m30.7912197 176.364927c19.3282715-51.779143 125.2966303-71.596892 155.8773133 1.257305 30.580682 72.854197 45.870918 71.766865 84.096493 64.15535 38.225575-7.611514 75.359042 3.262339 83.004247 33.708854 7.645205 30.446516 3.276661 64.155121 57.884656 64.155276s68.806227 54.368935 42.594438 71.766857c-26.211788 17.397922-35.077884 31.345409-15.290073 58.718194 19.787811 27.372786 22.585762 80.92822-34.973422 98.16284-57.559184 17.234621-92.745757-19.783507-133.235416-10.40643s-80.524744 121.787749-133.027676 101.723388c-52.5029331-20.06436-27.963245-80.244338-50.7649149-128.943735-22.8016703-48.699397-88.50086551-24.435836-86.92914561-83.614034s52.38790101-75.100834 58.70270371-130.663926c6.3148028-55.563093-47.2674751-88.240797-27.9392035-140.019939z" transform="matrix(1 0 0 -1 0 792)"></path>
+              <path d="m32.9670446 160.589555c20.6940809-55.380323 134.1505674-76.5763747 166.8921984 1.344749 32.74163 77.921125 49.112332 76.75817 90.039072 68.617283 40.926739-8.140887 80.684199 3.48923 88.869643 36.053267 8.185445 32.564036 3.508202 68.617037 61.975006 68.617203s73.668337 58.150232 45.604324 76.75816-37.556621 33.525447-16.370528 62.801979 24.181758 86.556686-37.444777 104.989955-99.299526-21.159428-142.650338-11.130186c-43.350813 10.029242-86.21493 130.25795-142.42792 108.798136-56.2129895-21.459815-29.939233-85.825242-54.3521564-137.911627-24.4129232-52.086385-94.75467396-26.135322-93.07189034-89.429296 1.68278361-63.293974 56.08982984-80.324012 62.85086054-139.751455s-50.6075751-94.377845-29.9134942-149.758168z" transform="matrix(1 0 0 -1 0 791)"></path>
+              <path d="m35.0110014 145.814183c21.9771139-58.981504 142.4679026-81.5558574 177.2395146 1.432194 34.771611 82.988051 52.157296 81.749475 95.621494 73.079215 43.464198-8.670259 85.68662 3.716122 94.379562 38.397679s3.72571 73.078954 65.817456 73.079131c62.091746.000176 78.235774 61.93153 48.431792 81.749464-29.803982 19.817933-39.885131 35.705484-17.3855 66.885763 22.49963 31.180278 25.681026 92.185152-39.766354 111.81707-65.44738 19.631917-105.456097-22.535349-151.49466-11.853942-46.038562 10.681407-91.560254 138.72815-151.25845 115.872883-59.6981949-22.855268-31.795466-91.406145-57.7219901-146.879518-25.9265245-55.473374-100.62946379-27.834807-98.84234759-95.244558s59.56739929-85.547191 66.74761389-148.838984c7.1802147-63.291793-53.7452447-100.514892-31.7681308-159.496397z" transform="matrix(1 0 0 -1 0 792)"></path>
+              <path d="m37.1868263 129.038812c23.3429232-62.5826856 151.3218407-86.5353411 188.2543997 1.519637 36.932559 88.054979 55.39871 86.74078 101.564073 77.541148 46.165362-9.199632 91.011777 3.943014 100.244958 40.742092s3.957252 77.54087 69.907807 77.541057c65.950555.000188 83.097884 65.712829 51.441677 86.740768-31.656207 21.02794-42.363868 37.885523-18.465955 70.969548 23.897913 33.084024 27.277022 97.813618-42.237709 118.644184-69.514732 20.830566-112.009865-23.911269-160.909582-12.577697s-97.25044 147.198351-160.658693 122.94763c-63.408252-24.250722-33.771455-96.987048-61.309233-155.84741-27.537777-58.860361-106.88327185-29.534291-104.98509193-101.059819s63.26932803-90.770369 70.89577073-157.926513c7.6264426-67.156144-57.0853447-106.65194-33.7424215-169.234625z" transform="matrix(1 0 0 -1 0 789)"></path>
+              <path d="m39.2967172 114.26344c24.6673444-66.1838662 159.9074768-91.5148238 198.9354998 1.607082 39.028024 93.121906 58.5419 91.732084 107.326574 82.00308s96.175565 4.169906 105.932615 43.086504c9.75705 38.916599 4.181777 82.002787 73.874207 82.002985 69.692431.000198 87.812658 69.494126 54.360354 91.732072-33.452303 22.237945-44.767491 40.06556-19.513669 75.053331 25.253823 34.987771 28.824655 103.442085-44.634175 125.4713-73.458829 22.029214-118.365034-25.28719-170.039203-13.301453-51.674168 11.985737-102.768195 155.668552-169.774079 130.022377s-35.687567-102.567951-64.787771-164.815301c-29.1002047-62.24735-112.94757159-31.233776-110.94169352-106.875081s66.85907712-95.993547 74.91822572-167.014042c8.0591487-71.020494-60.3242294-112.788988-35.656885-178.972854z" transform="matrix(1 0 0 -1 0 790)"></path>
+              <path d="m41.4725421 98.4880684c26.0331538-69.7850472 168.7614139-96.49430694 209.9503849 1.6945256 41.188971 98.188834 61.783314 96.723389 113.269153 86.465012 51.485838-10.258376 101.500722 4.396798 111.798012 45.430918 10.297289 41.03412 4.413318 86.464703 77.964557 86.464912s92.674768 73.275424 57.370239 96.723375c-35.304528 23.447952-47.246228 42.245599-20.594123 79.137116 26.652105 36.891518 30.42065 109.070551-47.105531 132.298414s-124.918803-26.663111-179.454125-14.025208-108.458381 164.138752-179.174322 137.097124c-70.715942-27.041629-37.663556-108.148854-68.375014-173.783192-30.7114571-65.634338-119.20137954-32.933261-117.08443775-112.690343 2.11694178-79.757082 70.56100585-101.216726 79.06638255-176.10157 8.5053767-74.884845-63.6643294-118.926036-37.6311757-188.7110836z" transform="matrix(1 0 0 -1 0 789)"></path>
+              <path d="m43.5164989 83.6255447c27.3161867-73.288899 177.0787491-101.3392094 220.2977011 1.7796068 43.218952 103.1188165 64.828279 101.5797925 118.851575 90.8063515 54.023297-10.773441 106.503143 4.617558 117.30793 47.711968s4.630827 90.806027 81.807008 90.806246 97.242205 76.954525 60.197707 101.57978c-37.044497 24.625254-49.574739 44.366716-21.609096 83.110527 27.965642 38.743811 31.919919 114.546897-49.427107 138.941012-81.347026 24.394116-131.075374-28.001844-188.298446-14.729403-57.223073 13.272442-113.803707 172.380029-188.004854 143.980662-74.201146-28.399368-39.519788-113.578922-71.744846-182.508708-32.2250591-68.929786-125.07617007-34.586814-122.8548957-118.348436s74.0385753-106.298736 82.9631359-184.94349c8.9245606-78.644753-66.8019991-124.897217-39.4858123-198.1861163z" transform="matrix(1 0 0 -1 0 789)"></path>
+              <path d="m45.6923238 68.850173c28.6819961-76.89007995 185.9326872-106.3186925 231.3125862 1.867051 45.3799 108.185744 68.069693 106.571097 124.794154 95.268284 56.724461-11.302814 111.8283 4.84445 123.173326 50.05638 11.345026 45.211931 4.862368 95.267943 85.897359 95.268174 81.03499.00023 102.104315 80.735823 63.207592 106.571083-38.896722 25.83526-52.053476 46.546754-22.689551 87.194312 29.363925 40.647557 33.515916 120.175363-51.898462 145.768127-85.414377 25.592764-137.629143-29.377765-197.713369-15.453158-60.084226 13.924606-119.493892 180.850229-197.405096 151.055408s-41.495777-119.159826-75.332089-191.4766c-33.8363115-72.316773-131.32997803-36.286298-128.99763994-124.163697s77.74050414-111.521915 87.11129274-194.031018c9.3707886-82.509104-70.1420991-131.034266-41.460103-207.924346z" transform="matrix(1 0 0 -1 0 790)"></path>
+            </g>
+          </svg>
+        </div>
+    
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./img/jo-logo-min.png" class="img-fluid" alt="Just Overboard logo." width="400">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+              <p class="lead text-white mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ex eius fugiat hic consectetur aliquid voluptate obcaecati dolorem? Similique porro odit tenetur cumque? Dolor, facere earum neque pariatur molestiae id?
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button class="btn btn-primary btn-lg px-4 me-md-2" type="button">Primary</button>
+                <button class="btn btn-outline-secondary btn-lg px-4" type="button">Default</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container px-4 py-5">
+          <h2 class="pb-2 border-bottom text-white">Наши преимущества</h2>
+          <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+            <div class="col">
+              <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                    <svg width="35" height="27" viewBox="0 0 35 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1_1842" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="27">
+                      <path d="M34.28 0.870117H0.279999V26.8701H34.28V0.870117Z" fill="white"/>
+                      </mask>
+                      <g mask="url(#mask0_1_1842)">
+                      <path d="M25.1257 16.4699C25.1257 15.7521 25.7113 15.1699 26.4334 15.1699C27.1555 15.1699 27.7411 15.7521 27.7411 16.4699C27.7411 17.1878 27.1555 17.7699 26.4334 17.7699C25.7113 17.7699 25.1257 17.1878 25.1257 16.4699Z" fill="#7864ff"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.279999 4.77012C0.279999 2.61622 2.03657 0.870117 4.20308 0.870117H29.0492C30.4936 0.870117 31.6646 2.03412 31.6646 3.47012V11.2701C33.109 11.2701 34.28 12.4341 34.28 13.8701V19.0701C34.28 20.5061 33.109 21.6701 31.6646 21.6701V24.2701C31.6646 25.7061 30.4936 26.8701 29.0492 26.8701H2.89538C1.45105 26.8701 0.279999 25.7061 0.279999 24.2701V4.77012ZM4.20308 3.47012H29.0492V6.07012H4.20308C3.4809 6.07012 2.89538 5.48802 2.89538 4.77012C2.89538 4.05222 3.4809 3.47012 4.20308 3.47012ZM31.6646 19.0701V13.8701H23.8185V19.0701H31.6646ZM29.0492 11.2701H23.8185C22.3741 11.2701 21.2031 12.4341 21.2031 13.8701V19.0701C21.2031 20.5061 22.3741 21.6701 23.8185 21.6701H29.0492V24.2701H2.89538V8.67012H29.0492V11.2701Z" fill="#7864ff"/>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3 class="fw-semibold mb-0 text-white">Featured title</h3>
+                  <p class="text-body-primary text-white">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                    <svg class="bi"></svg>
+                  </div>
+                  <h3 class="fw-semibold mb-0 text-white">Featured title</h3>
+                  <p class="text-body-primary text-white">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                    <svg class="bi"></svg>
+                  </div>
+                  <h3 class="fw-semibold mb-0 text-white">Featured title</h3>
+                  <p class="text-body-primary text-white">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                    <svg class="bi"></svg>
+                  </div>
+                  <h3 class="fw-semibold mb-0 text-white">Featured title</h3>
+                  <p class="text-body-primary text-white">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex flex-column align-items-start gap-2">
+              <h2 class="fw-bold text-white">Left-aligned title explaining these awesome features</h2>
+              <p class="text-body-primary text-white mb-5">
+                Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+              </p>
+              <a class="btn btn-primary btn-lg" href="#">Primary button</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- <section>
+        <div class="ca"></div>
+      </section> -->
+    
+      <section class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Space</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    Комната Space
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
+                    <small class="text-body-secondary">600 р/час</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Space</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    Комната Space
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
+                    <small class="text-body-secondary">600 р/час</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Space</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    Комната Space
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
+                    <small class="text-body-secondary">600 р/час</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Space</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    Комната Space
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
+                    <small class="text-body-secondary">600 р/час</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Space</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    Комната Space
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
+                    <small class="text-body-secondary">600 р/час</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Space</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    Комната Space
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
+                    <small class="text-body-secondary">600 р/час</small>
+                  </div>
+                </div>
+              </div>
+            </div>  
+              
+          </div>
+        </div>
+      </section>
+    
+      <section class="form container px-5 py-5">
+        <h2 class="pb-2 border-bottom text-white">Оставьте заявку</h2>
+        <form class="row g-3 needs-validation py-3" needs-validation>
+          <div class="col-md-6">
+            <label for="validationCustomUsername" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="validationCustomUsername" value="Ваше имя" required>
+            <div class="valid-feedback">
+              Отличное имя!
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" value="you@example.com" required>
+            <div class="invalid-feedback">
+              Пожалуйста, введите корректный адрес эл.почты.
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="textarea" class="form-label">Комментарий</label>
+            <input type="text" class="form-control" id="textarea" value="Введите текст" required>
+            <div class="valid-feedback">
+              Супер!
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Я согласен на обработку моих персональных данных
+              </label>
+              <div class="invalid-feedback">
+                Перед отправкой формы необходимо дать согласие.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Отправить</button>
+          </div>
+        </form>
+      </section>
+    
+      <section class="faq">
+        <div class="container px-5 py-5">
+          <h2 class="pb-2 border-bottom text-white">Часто задаваемые вопросы</h2>
+          <div class="row py-3">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+      </section>
+    </main>
+
+  
+
+    <footer class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-primary text-white">© 2024 Company, Inc</p>
+        <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" href="#">
+          <picture>
+            <img src="./img/jo-logo-min.png" alt="" width="150">
+          </picture>
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="ms-3">
+            <a class="link-body-emphasis" href="">
+              <svg class="bi" width="35" height="27" viewBox="0 0 35 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_1_1842" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="27">
+                <path d="M34.28 0.870117H0.279999V26.8701H34.28V0.870117Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_1_1842)">
+                <path d="M25.1257 16.4699C25.1257 15.7521 25.7113 15.1699 26.4334 15.1699C27.1555 15.1699 27.7411 15.7521 27.7411 16.4699C27.7411 17.1878 27.1555 17.7699 26.4334 17.7699C25.7113 17.7699 25.1257 17.1878 25.1257 16.4699Z" fill="#7864ff"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.279999 4.77012C0.279999 2.61622 2.03657 0.870117 4.20308 0.870117H29.0492C30.4936 0.870117 31.6646 2.03412 31.6646 3.47012V11.2701C33.109 11.2701 34.28 12.4341 34.28 13.8701V19.0701C34.28 20.5061 33.109 21.6701 31.6646 21.6701V24.2701C31.6646 25.7061 30.4936 26.8701 29.0492 26.8701H2.89538C1.45105 26.8701 0.279999 25.7061 0.279999 24.2701V4.77012ZM4.20308 3.47012H29.0492V6.07012H4.20308C3.4809 6.07012 2.89538 5.48802 2.89538 4.77012C2.89538 4.05222 3.4809 3.47012 4.20308 3.47012ZM31.6646 19.0701V13.8701H23.8185V19.0701H31.6646ZM29.0492 11.2701H23.8185C22.3741 11.2701 21.2031 12.4341 21.2031 13.8701V19.0701C21.2031 20.5061 22.3741 21.6701 23.8185 21.6701H29.0492V24.2701H2.89538V8.67012H29.0492V11.2701Z" fill="#7864ff"/>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="link-body-emphasis" href="">
+              <svg class="bi" width="35" height="27" viewBox="0 0 35 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_1_1842" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="27">
+                <path d="M34.28 0.870117H0.279999V26.8701H34.28V0.870117Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_1_1842)">
+                <path d="M25.1257 16.4699C25.1257 15.7521 25.7113 15.1699 26.4334 15.1699C27.1555 15.1699 27.7411 15.7521 27.7411 16.4699C27.7411 17.1878 27.1555 17.7699 26.4334 17.7699C25.7113 17.7699 25.1257 17.1878 25.1257 16.4699Z" fill="#7864ff"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.279999 4.77012C0.279999 2.61622 2.03657 0.870117 4.20308 0.870117H29.0492C30.4936 0.870117 31.6646 2.03412 31.6646 3.47012V11.2701C33.109 11.2701 34.28 12.4341 34.28 13.8701V19.0701C34.28 20.5061 33.109 21.6701 31.6646 21.6701V24.2701C31.6646 25.7061 30.4936 26.8701 29.0492 26.8701H2.89538C1.45105 26.8701 0.279999 25.7061 0.279999 24.2701V4.77012ZM4.20308 3.47012H29.0492V6.07012H4.20308C3.4809 6.07012 2.89538 5.48802 2.89538 4.77012C2.89538 4.05222 3.4809 3.47012 4.20308 3.47012ZM31.6646 19.0701V13.8701H23.8185V19.0701H31.6646ZM29.0492 11.2701H23.8185C22.3741 11.2701 21.2031 12.4341 21.2031 13.8701V19.0701C21.2031 20.5061 22.3741 21.6701 23.8185 21.6701H29.0492V24.2701H2.89538V8.67012H29.0492V11.2701Z" fill="#7864ff"/>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="link-body-emphasis" href="">
+              <svg class="bi" width="35" height="27" viewBox="0 0 35 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_1_1842" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="27">
+                <path d="M34.28 0.870117H0.279999V26.8701H34.28V0.870117Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_1_1842)">
+                <path d="M25.1257 16.4699C25.1257 15.7521 25.7113 15.1699 26.4334 15.1699C27.1555 15.1699 27.7411 15.7521 27.7411 16.4699C27.7411 17.1878 27.1555 17.7699 26.4334 17.7699C25.7113 17.7699 25.1257 17.1878 25.1257 16.4699Z" fill="#7864ff"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.279999 4.77012C0.279999 2.61622 2.03657 0.870117 4.20308 0.870117H29.0492C30.4936 0.870117 31.6646 2.03412 31.6646 3.47012V11.2701C33.109 11.2701 34.28 12.4341 34.28 13.8701V19.0701C34.28 20.5061 33.109 21.6701 31.6646 21.6701V24.2701C31.6646 25.7061 30.4936 26.8701 29.0492 26.8701H2.89538C1.45105 26.8701 0.279999 25.7061 0.279999 24.2701V4.77012ZM4.20308 3.47012H29.0492V6.07012H4.20308C3.4809 6.07012 2.89538 5.48802 2.89538 4.77012C2.89538 4.05222 3.4809 3.47012 4.20308 3.47012ZM31.6646 19.0701V13.8701H23.8185V19.0701H31.6646ZM29.0492 11.2701H23.8185C22.3741 11.2701 21.2031 12.4341 21.2031 13.8701V19.0701C21.2031 20.5061 22.3741 21.6701 23.8185 21.6701H29.0492V24.2701H2.89538V8.67012H29.0492V11.2701Z" fill="#7864ff"/>
+                </g>
+              </svg>
+            </a>
+          </li>
+            
+        </ul>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+        <span class="text-white">© 2024 Company, Inc. All rights reserved.</span>
+        <ul class="list-unstyled d-flex flex-wrap">
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-primary text-white text-white" href="#">Портфолио</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-primary text-white" href="#">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-primary text-white" href="#">Отзывы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-primary text-white" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-primary text-white" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
