@@ -1,4 +1,26 @@
+.feature__icon {
+  width: 30px;
+  height: 30px;
+  background: center / contain no-repeat url("../img/star.svg");
+
+  &--heart {
+    background-image: url("../img/hand-holding-heart.svg");
+  }
+
+  &--sparkles {
+    background-image: url("../img/sparkles.svg");
+  }
+
+  &--headset {
+    background-image: url("../img/headset.svg");
+  }
+
+  &--badge-check {
+    background-image: url("../img/badge-check.svg");
+  }
+}
+
 .feature-icon-small {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }

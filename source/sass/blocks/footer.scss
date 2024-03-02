@@ -1,0 +1,25 @@
+.footer__link {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  background: center / contain no-repeat url("../img/star.svg");
+
+  &--vk {
+    background-image: url("../img/vk.svg");
+  }
+
+  &--inst {
+    background-image: url("../img/instagram.svg");
+  }
+
+  &--tg {
+    background-image: url("../img/telegram.svg");
+  }
+}

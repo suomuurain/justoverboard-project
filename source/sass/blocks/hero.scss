@@ -1,24 +1,3 @@
-.graphic {
-  transform: scale(0.6);
-}
-
-#graphic {
-  transform: rotate(190deg);
-}
-
-/* Graphic Animation -- Start */
-#graphic path {
-  opacity: 0.75;
-  animation: wave2 1.8s ease-in-out infinite alternate-reverse both;
-  transform-origin: center center;
-
-  @for $i from 1 through 17{
-    &:nth-child(#{$i}) {
-    animation-delay: $i * 0.08s;
-    }
-  }
-}
-
 .hero {
   position: relative;
 }
