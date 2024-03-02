@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Just Overboard. Аранжировка, сведение треков, мастеринг и sound-design">
     <title>Just Overboard</title>
     <link rel="stylesheet" href="sass/style.scss">
   </head>
@@ -14,13 +15,14 @@
         <div class="container-fluid">
           <a class="ms-3 me-3" href="#">
             <picture>
-                <img src="./img/jo-logo-min.png" alt="" width="100">
+              <img src="./img/jo-logo-min.png" alt="Логотип Just Overboard." width="100">
             </picture>
           </a>
-          <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+
+          <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarsExample04">
+          <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto ms-3 mb-2 mt-2 mb-md-0 mt-md-0">
               <li class="nav-item">
                 <a class="nav-link" href="carousel.html">Портфолио</a>
@@ -45,6 +47,7 @@
     </header>
 
     <main>
+      <!-- Start Hero -->
       <section class="hero">
         <div class="hero__graphic-wrapper me-md-5">
           <svg id="graphic" height="796" viewBox="0 0 60% 60%" width="790" xmlns="http://www.w3.org/2000/svg" class="graphic">
@@ -69,7 +72,7 @@
             </g>
           </svg>
         </div>
-    
+
         <div class="container col-xxl-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
@@ -87,10 +90,11 @@
             </div>
           </div>
         </div>
-    
+
+        <!-- Start Преимущества -->
         <div class="container px-4 py-5">
           <h2 class="pb-2 border-bottom text-white">Наши преимущества</h2>
-          <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+          <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2 py-lg-5">
             <div class="col">
               <div class="row row-cols-1 row-cols-sm-2 g-4">
                 <div class="col d-flex flex-column gap-2">
@@ -140,148 +144,163 @@
             </div>
           </div>
         </div>
+        <!-- End Преимущества -->
       </section>
-    
-      <!-- <section>
-        <div class="ca"></div>
-      </section> -->
-    
-      <section class="album py-5 bg-body-tertiary">
+      <!-- End Hero -->
+
+
+
+      <!-- Start Музыкальные классы -->
+      <section class="room py-5 bg-body-tertiary">
         <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <h2 class="pb-2 border-bottom"> Музыкальные классы в&nbsp;Москве</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-2 py-lg-5">
             <div class="col">
+              <h3 class="visually-hidden">Комната Space.</h3>
               <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Space</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                </svg>
+                <div class="card__img">
+                  <picture>
+                    <img src="img/space-room.jpg" alt="Комната Space.">
+                  </picture>
+                </div>
                 <div class="card-body">
                   <p class="card-text">
                     Комната Space
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">
+                    Сияющая звездами комната с&nbsp;неоновой подсветкой,
+                    потолками цвета зелени и&nbsp;атмосферой, которая вдохновляет.
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
                     <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
                     <small class="text-body-secondary">600 р/час</small>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col">
+              <h3 class="visually-hidden">Комната Alien.</h3>
               <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Space</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                </svg>
+                <div class="card__img">
+                  <picture>
+                    <img src="img/alien-room.jpg" alt="Комната Alien.">
+                  </picture>
+                </div>
                 <div class="card-body">
                   <p class="card-text">
-                    Комната Space
+                    Комната Alien
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">
+                    Интригующая комната в&nbsp;темных тонах, словно на&nbsp;борту
+                    инопланетного корабля, с&nbsp;неоновым зеленым светом.
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
                     <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
-                    <small class="text-body-secondary">600 р/час</small>
+                    <small class="text-body-secondary">450 р/час</small>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col">
+              <h3 class="visually-hidden">Комната Line.</h3>
               <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Space</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                </svg>
+                <div class="card__img">
+                  <picture>
+                    <img src="img/line-room.jpg" alt="Комната Line.">
+                  </picture>
+                </div>
                 <div class="card-body">
                   <p class="card-text">
-                    Комната Space
+                    Комната Line
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">
+                    Уютное пространство в&nbsp;голубых тонах неона, идеальное для&nbsp;творчества.
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
                     <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
-                    <small class="text-body-secondary">600 р/час</small>
+                    <small class="text-body-secondary">450 р/час</small>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col">
+              <h3 class="visually-hidden">Комната White.</h3>
               <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Space</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                </svg>
+                <div class="card__img">
+                  <picture>
+                    <img src="img/white-room.jpg" alt="Комната White.">
+                  </picture>
+                </div>
                 <div class="card-body">
                   <p class="card-text">
-                    Комната Space
+                    Комната White
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">
+                    Просторная комната, цвета белого, вдохновляющая на&nbsp;создание музыки.
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
                     <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
-                    <small class="text-body-secondary">600 р/час</small>
+                    <small class="text-body-secondary">550 р/час</small>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col">
+              <h3 class="visually-hidden">Комната Tiny.</h3>
               <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Space</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                </svg>
+                <div class="card__img">
+                  <picture>
+                    <img src="img/tiny-room.jpg" alt="Комната Tiny.">
+                  </picture>
+                </div>
                 <div class="card-body">
                   <p class="card-text">
-                    Комната Space
+                    Комната Tiny
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">
+                    Небольшая и&nbsp;доступная комната для&nbsp;музыкальных экспериментов.
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
                     <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
-                    <small class="text-body-secondary">600 р/час</small>
+                    <small class="text-body-secondary">300 р/час</small>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Space" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Space</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    Комната Space
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
-                    <small class="text-body-secondary">600 р/час</small>
-                  </div>
-                </div>
-              </div>
-            </div>  
-              
+          </div>
+
+          <div class="col-12 col d-inline-flex align-items-center justify-content-center">
+            <button class="btn btn-primary btn-lg">Узнать больше</button>
           </div>
         </div>
       </section>
-    
+      <!-- End Музыкальные классы -->
+
+      <!-- Start форма -->
       <section class="form container px-5 py-5">
         <h2 class="pb-2 border-bottom text-white">Оставьте заявку</h2>
-        <form class="row g-3 needs-validation py-3" needs-validation>
+        <form class="row g-3 needs-validation py-2 py-lg-5" needs-validation>
           <div class="col-md-6">
             <label for="validationCustomUsername" class="form-label">Имя</label>
-            <input type="text" class="form-control" id="validationCustomUsername" value="Ваше имя" required>
+            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Ваше имя" required>
             <div class="valid-feedback">
               Отличное имя!
             </div>
           </div>
           <div class="col-md-6">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" value="you@example.com" required>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
             <div class="invalid-feedback">
               Пожалуйста, введите корректный адрес эл.почты.
             </div>
           </div>
           <div class="col-md-12">
             <label for="textarea" class="form-label">Комментарий</label>
-            <input type="text" class="form-control" id="textarea" value="Введите текст" required>
+            <input type="text" class="form-control" id="textarea" placeholder="Введите текст" required>
             <div class="valid-feedback">
               Супер!
             </div>
@@ -302,31 +321,62 @@
           </div>
         </form>
       </section>
-    
-      <section class="faq">
-        <div class="container px-5 py-5">
+      <!-- End Форма -->
+
+      <!-- Start FAQ -->
+      <section class="faq px-5 py-5">
+        <div class="container">
           <h2 class="pb-2 border-bottom text-white">Часто задаваемые вопросы</h2>
-          <div class="row py-3">
+          <div class="row py-2 py-lg-5">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
                 </div>
               </div>
             </div>
-              
+
           </div>
         </div>
       </section>
+      <!-- End FAQ -->
+
     </main>
 
-  
+
 
     <footer class="container">
       <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -376,7 +426,7 @@
               </svg>
             </a>
           </li>
-            
+
         </ul>
       </div>
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
@@ -401,7 +451,7 @@
       </div>
     </footer>
 
-    
+
     <script type="module" src="js/main.js"></script>
   </body>
 </html>
