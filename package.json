@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite --host --open",
     "build": "vite build",
-    "preview": "vite preview --open"
+    "preview": "vite preview --open",
+    "w3c": "html-validator --quiet"
   },
   "devDependencies": {
     "sass": "^1.71.1",
-    "vite": "^5.1.4"
+    "vite": "^5.1.4",
+    "w3c-html-validator": "^1.6.4"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
