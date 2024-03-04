@@ -6,29 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Just Overboard. Аранжировка, сведение треков, мастеринг и sound-design">
     <title>Just Overboard</title>
+
+    <!-- <link rel="stylesheet" href="carousel.css"> -->
+    <!-- <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="sass/style.scss">
+    <script
+      type="text/javascript"
+      src="https://vk.com/js/api/openapi.js?168"
+      charset="windows-1251">
+    </script>
   </head>
   <body>
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="ms-3 me-3" href="#">
+          <a class="ms-3 me-3" href="index.html">
             <picture>
               <img src="./img/jo-logo-min.png" alt="Логотип Just Overboard." width="100">
             </picture>
           </a>
 
-          <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto ms-3 mb-2 mt-2 mb-md-0 mt-md-0">
               <li class="nav-item">
-                <a class="nav-link" href="carousel.html">Портфолио</a>
+                <a class="nav-link" href="#portfolio">Портфолио</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="template.html">Услуги</a>
+                <a class="nav-link" href="">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="label.html">Лейбл</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Отзывы</a>
@@ -84,8 +96,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ex eius fugiat hic consectetur aliquid voluptate obcaecati dolorem? Similique porro odit tenetur cumque? Dolor, facere earum neque pariatur molestiae id?
               </p>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button class="btn btn-primary btn-lg px-4 me-md-2" type="button">Наши услуги</button>
-                <button class="btn btn-outline-secondary btn-lg px-4" type="button">Портфолио</button>
+                <a class="btn btn-primary btn-lg px-4 me-md-2" href="#services">Наши услуги</a>
+                <a class="btn btn-outline-secondary btn-lg px-4" href="#form">Оставить заявку</a>
               </div>
             </div>
           </div>
@@ -96,11 +108,11 @@
           <h2 class="pb-2 border-bottom text-white">Наши преимущества</h2>
           <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2 py-lg-5">
             <div class="col d-flex flex-column align-items-start gap-2">
-              <h3 class="fw-bold text-white">Собственный лейбл Just Overboard</h3>
-              <p class="text-body-primary text-white mb-5">
-                На нем можно выгружать треки по договору на более 70+ площадок (Spotify, Apple Music, VK Музыка, Яндекс Музыка и другие)
+              <h3 class="fw-bold text-white">Свой лейбл Just&nbsp;Overboard</h3>
+              <p class="text-body-primary text-white">
+                Выгружаем треки 70+&nbsp;площадок (Spotify, Apple Music, VK Музыка, Яндекс Музыка и&nbsp;другие)
               </p>
-              <a class="btn btn-primary" href="#">Узнать больше про лейбл</a>
+              <a class="btn btn-primary mt-md-5" href="label.html">Узнать больше про лейбл</a>
             </div>
             <div class="col">
               <div class="row row-cols-1 row-cols-sm-2 g-4">
@@ -110,7 +122,7 @@
                   </div>
                   <h3 class="fw-semibold mb-0 text-white">Делаем как для&nbsp;себя</h3>
                   <p class="text-body-primary text-white">
-                    Скрупулезное отношение.
+                    Высокое качестово за&nbsp;счет скрупулезного отношения и внимания к&nbsp;мелочам
                   </p>
                 </div>
                 <div class="col d-flex flex-column gap-2">
@@ -119,7 +131,7 @@
                   </div>
                   <h3 class="fw-semibold mb-0 text-white">Работа с&nbsp;демо вокала</h3>
                   <p class="text-body-primary text-white">
-                    Возможность предварительно услышать, подходит ли музыка под&nbsp;вокал
+                    Возможность предварительно услышать, подходит&nbsp;ли музыка под&nbsp;вокал
                   </p>
                 </div>
                 <div class="col d-flex flex-column gap-2">
@@ -128,7 +140,7 @@
                   </div>
                   <h3 class="fw-semibold mb-0 text-white">Развиваем вашу идею</h3>
                   <p class="text-body-primary text-white">
-                    Работаем под ваши запросы.
+                    Работаем под ваши запросы и ведем конструктивный диалог
                   </p>
                 </div>
                 <div class="col d-flex flex-column gap-2">
@@ -137,7 +149,7 @@
                   </div>
                   <h3 class="fw-semibold mb-0 text-white">Результат точно в&nbsp;срок</h3>
                   <p class="text-body-primary text-white">
-                    от недели до двух
+                    Сдаем работы в&nbsp;оговоренные сроки, сохраняя качество
                   </p>
                 </div>
               </div>
@@ -148,6 +160,27 @@
       </section>
       <!-- End Hero -->
 
+      <!-- Start Portfolio -->
+      <section class="portfolio bg-body-tertiary py-5" id="portfolio">
+        <div class="container">
+          <div class="pricing-header p-3 pb-lg-4 mx-auto text-center">
+            <h2 class="display-4 fw-normal text-body-emphasis">Портфолио</h2>
+            <p class="fs-5 text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex culpa delectus optio reiciendis ut tempora aliquid, dolorum quod et nam consectetur praesentium nobis sequi officia asperiores vero laudantium ipsa!</p>
+          </div>
+          <div class="row row-cols-1 row-cols-lg-2 mb-3">
+            <div class="col">
+              <div id='vk_playlist_89137132_83432785'></div>
+            </div>
+            <div class="col">
+              <div id='vk_playlist_247524543_25'></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- End Portfolio -->
+
+      <!-- Start Price -->
       <section class="price bg-body-tertiary py-5" id="services">
         <div class="container">
           <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -224,8 +257,86 @@
               </div>
             </div>
           </div>
+          <div class="col-12 col d-inline-flex align-items-center justify-content-center">
+            <button class="btn btn-lg btn-outline-primary">Смотреть все услуги</button>
+          </div>
         </div>
       </section>
+      <!-- End Price -->
+
+      <!-- Start Label carousel-->
+      <section class="label">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="bd-placeholder-img">
+                <picture>
+                  <img src="img/carousel/microphone.jpg" alt="Микрофон." width="100%" height="512">
+                </picture>
+              </div>
+
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h2>Помогаем музыкантам, которые делают хорошую музыку</h2>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                    metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">О лейбле</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="bd-placeholder-img">
+                <picture>
+                  <img src="img/carousel/microphone.jpg" alt="Микрофон." width="100%" height="512">
+                </picture>
+              </div>
+
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h2>Помогаем музыкантам, которые делают хорошую музыку</h2>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                    metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Попасть к нам</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="bd-placeholder-img">
+                <picture>
+                  <img src="img/carousel/microphone.jpg" alt="Микрофон." width="100%" height="512">
+                </picture>
+              </div>
+
+              <div class="container">
+                <div class="carousel-caption">
+                  <h2>Наши артисты</h2>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                    metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Смотреть всех артистов</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- End Label carousel -->
 
       <!-- Start Музыкальные классы -->
       <section class="room py-5 bg-body-tertiary" id="room">
@@ -316,7 +427,7 @@
                     Комната White
                   </p>
                   <small class="text-body-secondary">
-                    Просторная комната, цвета белого, вдохновляющая на&nbsp;создание музыки.
+                    Просторная комната белого цвета, вдохновляющая на&nbsp;создание музыки.
                   </small>
                   <div class="d-flex justify-content-between align-items-center mt-3">
                     <button class="btn btn-sm btn-outline-secondary" type="button">Подробнее</button>
@@ -351,94 +462,174 @@
           </div>
 
           <div class="col-12 col d-inline-flex align-items-center justify-content-center">
-            <button class="btn btn-primary btn-lg">Узнать больше</button>
+            <button class="btn btn-primary btn-lg mt-2 mt-lg-0">Подробнее</button>
           </div>
         </div>
       </section>
       <!-- End Музыкальные классы -->
 
+      <section class="reviews px-5 py-5" id="reviews">
+        <div class="container">
+          <h2 class="pb-2 border-bottom text-white">Отзывы</h2>
+          <div class="row py-2 py-lg-5">
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-start align-items-center mb-3">
+                <div class="bd-reviews-img rounded-circle">
+                  <picture>
+                    <img src="img/reviews/vit-seven.jpg" alt="Исполнитель: Даша Душа.">
+                  </picture>
+                </div>
+                <h2 class="text-white">Vit Seven</h2>
+              </div>
+              <p class="text-white">
+                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+                felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                massa justo sit amet risus.
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-start align-items-center mb-3">
+                <div class="bd-reviews-img rounded-circle">
+                  <picture>
+                    <img src="img/reviews/dashadusha.jpg" alt="Исполнитель: Даша Душа.">
+                  </picture>
+                </div>
+                <h2 class="text-white">Даша Душа</h2>
+              </div>
+              <p class="text-white">
+                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+                felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                massa justo sit amet risus.
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-start align-items-center mb-3">
+                <div class="bd-reviews-img rounded-circle">
+                  <picture>
+                    <img src="img/reviews/guccimogucci.jpg" alt="Исполнитель: GUCCIMOGUCCI.">
+                  </picture>
+                </div>
+                <h2 class="text-white">GUCCI MOGUCCI</h2>
+              </div>
+              <p class="text-white">
+                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+                felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                massa justo sit amet risus.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       <!-- Start форма -->
-      <section class="form container px-5 py-5" id="form">
-        <h2 class="pb-2 border-bottom text-white">Оставьте заявку</h2>
-        <form class="row g-3 needs-validation py-2 py-lg-5" needs-validation>
-          <div class="col-md-6">
-            <label for="validationCustomUsername" class="form-label">Имя</label>
-            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Ваше имя" required>
-            <div class="valid-feedback">
-              Отличное имя!
-            </div>
-          </div>
-          <div class="col-md-6">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
-            <div class="invalid-feedback">
-              Пожалуйста, введите корректный адрес эл.почты.
-            </div>
-          </div>
-          <div class="col-md-12">
-            <label for="textarea" class="form-label">Комментарий</label>
-            <input type="text" class="form-control" id="textarea" placeholder="Введите текст" required>
-            <div class="valid-feedback">
-              Супер!
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-              <label class="form-check-label" for="invalidCheck">
-                Я согласен на обработку моих персональных данных
-              </label>
-              <div class="invalid-feedback">
-                Перед отправкой формы необходимо дать согласие.
+      <section class="form py-5" id="form">
+        <div class="container">
+          <h2 class="pb-2 border-bottom text-white">Оставьте заявку</h2>
+          <form class="row g-3 needs-validation py-2 py-lg-5 px-lg-5" needs-validation>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Ваше имя" required>
+              <div class="valid-feedback">
+                Отличное имя!
               </div>
             </div>
-          </div>
-          <div class="col-12">
-            <button class="btn btn-primary" type="submit">Отправить</button>
-          </div>
-        </form>
+            <div class="col-md-4">
+              <label for="tel" class="form-label">Телефон</label>
+              <input type="tel" class="form-control" id="tel" placeholder="+7 999 123-40-50" required>
+              <div class="invalid-feedback">
+                Пожалуйста, введите корректный номер телефона.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+              <div class="invalid-feedback">
+                Пожалуйста, введите корректный адрес эл.почты.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="services" class="form-label">Услуга</label>
+              <select class="form-select" name="services" id="services" required>
+                <option value>Выберите из списка...</option>
+                <option value="arrangement">Продакшн: Аранжировка</option>
+                <option value="mixing">Продакшн: Сведение трека</option>
+                <option value="finalization">Продакшн: Доработка трека</option>
+                <option value="release">Лейбл: Релиз</option>
+                <option value="other">Другое</option>
+              </select>
+              <div class="invalid-feedback">
+                Пожалуйста, выберите услугу.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="comment" class="form-label">Комментарий</label>
+              <textarea class="form-control" name="comment" id="comment" placeholder="Введите текст..." cols="30" rows="5"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Я согласен на обработку моих персональных данных
+                </label>
+                <div class="invalid-feedback">
+                  Перед отправкой формы необходимо дать согласие.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
       </section>
       <!-- End Форма -->
 
       <!-- Start FAQ -->
-      <section class="faq px-5 py-5" id="faq">
+      <section class="faq py-5" id="faq">
         <div class="container">
           <h2 class="pb-2 border-bottom text-white">Часто задаваемые вопросы</h2>
           <div class="row py-2 py-lg-5">
-            <div class="accordion" id="accordionExample">
+            <div class="accordion" id="accordionFAQ">
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1
+                  <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Сколько времени требуется на создание аранжировки?
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    В среднем сроки написание аранжировки составляют <strong>10-15 дней</strong>.
                   </div>
                 </div>
               </div>
 
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    В чем отличия сведения от мастеринга?
                   </button>
                 </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Если кратко, то <strong>сведение музыки</strong> — это обработка отдельных звуковых дорожек и объединение их в общий аудио микс.
+                    <br>
+                    <strong>Мастеринг</strong> — это работа с уже сведенным миксом, без возможности редактирования отдельных аудио дорожек.
                   </div>
                 </div>
               </div>
 
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
                     Accordion Item #3
                   </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                   <div class="accordion-body">
                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                   </div>
@@ -491,6 +682,9 @@
             <a class="nav-link px-2 text-body-primary text-white text-center" href="#services">Услуги</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link px-2 text-body-primary text-white text-center" href="#services">Лейбл</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link px-2 text-body-primary text-white text-center" href="#reviews">Отзывы</a>
           </li>
           <li class="nav-item">
@@ -503,11 +697,26 @@
             <a class="nav-link px-2 text-body-primary text-white text-center" href="#room">Музыкальные классы</a>
           </li>
         </ul>
-        <span class="text-end text-white mb-0">© 2024 Company, Inc. All rights reserved.</span>
+        <span class="text-end mb-0">
+          <a class="text-white" href="https://github.com/suomuurain" target="_blank">made by suomuurain.</a>
+        </span>
       </div>
     </footer>
 
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous">
+    </script> -->
+    <script type="text/javascript">
+      VK.Widgets.Playlist('vk_playlist_89137132_83432785', 89137132, 83432785, 'f0f4681c549905d0f4');
+    </script>
+    <script type="text/javascript">
+      VK.Widgets.Playlist('vk_playlist_247524543_25', 247524543, 25, '3575a0b32d40b426d0');
+    </script>
     <script type="module" src="js/main.js"></script>
   </body>
 </html>

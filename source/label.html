@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Just Overboard. Аранжировка, сведение треков, мастеринг и sound-design">
+    <title>Just Overboard</title>
+
+    <!-- <link rel="stylesheet" href="carousel.css"> -->
+    <!-- <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/style.scss">
+    <script
+      type="text/javascript"
+      src="https://vk.com/js/api/openapi.js?168"
+      charset="windows-1251">
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="ms-3 me-3" href="index.html">
+            <picture>
+              <img src="./img/jo-logo-min.png" alt="Логотип Just Overboard." width="100">
+            </picture>
+          </a>
+
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto ms-3 mb-2 mt-2 mb-md-0 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Портфолио</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="label.html">Лейбл</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <button class="btn btn-primary ms-3 me-3 fw-semibold" type="button">Оставить заявку</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Start Label carousel-->
+    <section class="label">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="bd-placeholder-img">
+              <picture>
+                <img src="img/carousel/microphone.jpg" alt="Микрофон." width="100%" height="512">
+              </picture>
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h2>Помогаем музыкантам, которые делают хорошую музыку</h2>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                  metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">О лейбле</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="bd-placeholder-img">
+              <picture>
+                <img src="img/carousel/microphone.jpg" alt="Микрофон." width="100%" height="512">
+              </picture>
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h2>Помогаем музыкантам, которые делают хорошую музыку</h2>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                  metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Попасть к нам</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="bd-placeholder-img">
+              <picture>
+                <img src="img/carousel/microphone.jpg" alt="Микрофон." width="100%" height="512">
+              </picture>
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h2>Наши артисты</h2>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                  metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Смотреть всех артистов</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- End Label carousel -->
+
+    <section class="featurette bg-body-tertiary">
+      <div class="container">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">GUCCIMOGUCCI - <span class="text-muted">Самураи в адиках</span></h2>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/XVJTX-26qc8?si=T-w0mL7xAwzu-qIa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+              <picture>
+                <img src="img/album/gm-samurai.jpg" alt="GUCCIMOGUCCI - Самураи в адиках.">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">SNAILKICK - <span class="text-muted">Крепкий чай</span></h2>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/3pPKUsJnCRQ?si=MyHHGLpx6nwIqTTV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+              <picture>
+                <img src="img/album/snailkick.webp" alt="SNAILKICK - Крепкий чай.">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Vit Seven - <span class="text-muted">Мессалина</span></h2>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/eyqEbu3jPmc?si=7Rbal_xziq_N_3az" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+              <picture>
+                <img src="img/album/vit-seven-messalina.jpg" alt="Vit Seven - Мессалина.">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Margarex - <span class="text-muted">Не могу понять</span></h2>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/lNO7f9H6GY8?si=HEmEUr_XM1Wgf4Kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+              <picture>
+                <img src="img/album/margarex.jpg" alt="Margarex - Не могу понять.">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+      </div>
+    </section>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
